@@ -7,6 +7,6 @@ public class Component1 {
 
     @Override
     public String toString() {
-        return "\nThis class is " + this.getClassName();
+        return "Class: " + this.getClassName();
     }
 }
