@@ -57,4 +57,8 @@ public class ApplicationContext {
     public void getComponentsObjects(){
         System.out.println(components.values());
     }
+
+    public Map<Class<?>, Object> getComponents(){
+        return components;
+    }
 }
